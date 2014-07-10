@@ -14,5 +14,4 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.dependency   = 'FLAnimatedImage', '~> 1.0'
   s.dependency   = "LKBadgeView", :git => 'https://github.com/lakesoft/LKBadgeView.git'
-  
 end
