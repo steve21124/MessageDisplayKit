@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '6.0'
   s.source_files = 'MessageDisplayKit/Classes/**/*.{h,m}'
   s.resources    = 'MessageDisplayKit/Resources/*'
+  s.resources    = 'MessageDisplayKit/Classes/Vendor/**/*.{xib}'
   s.requires_arc = true
   s.dependency   = 'FLAnimatedImage', '~> 1.0'
   s.dependency   = "LKBadgeView", :git => 'https://github.com/lakesoft/LKBadgeView.git'
