@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.resources    = 'MessageDisplayKit/Classes/Vendor/**/*.{xib}'
   s.requires_arc = true
   s.dependency   = 'FLAnimatedImage', '~> 1.0'
-  s.dependency   = "LKBadgeView", :git => 'https://github.com/lakesoft/LKBadgeView.git'
+  s.dependency   = "LKBadgeView"
 end
