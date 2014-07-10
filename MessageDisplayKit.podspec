@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/xhzengAIB/MessageDisplayKit"
   s.license      = "MIT"
   s.authors      = { "xhzengAIB" => "xhzengAIB@gmail.com" }
-  s.source       = { :git => "https://github.com/xhzengAIB/MessageDisplayKit.git", :tag => "v0.1.5" }
+  s.source       = { :git => "https://github.com/xhzengAIB/MessageDisplayKit.git" }
   s.frameworks   = 'Foundation', 'CoreGraphics', 'UIKit'
   s.platform     = :ios, '6.0'
   s.source_files = 'MessageDisplayKit/Classes/**/*.{h,m}'
