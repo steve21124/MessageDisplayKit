@@ -12,6 +12,4 @@ Pod::Spec.new do |s|
   s.resources    = 'MessageDisplayKit/Resources/*'
   s.resources    = 'MessageDisplayKit/Classes/Vendor/**/*.{xib}'
   s.requires_arc = true
-  s.dependency   = 'FLAnimatedImage', '~> 1.0'
-  s.dependency   = "LKBadgeView"
 end
